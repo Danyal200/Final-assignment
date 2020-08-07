@@ -51,3 +51,14 @@ suspend modifier, etc.
 operators, keywords, function calls, string patterns, etc.
 To assess the viability of our approach to identification of anomalies,we conduct an evaluation of significance and practical value of anomalies extracted from the dataset.
 
+## RESULT:
+
+In this summary i detect two kinds of experiments to different types of code anomalies (syntax tree anomalies and compilerinduced anomalies), using different approaches both at the code
+vectorization and at the anomaly detection stages.As a result, 91
+syntax tree anomalies and 54 compiler-induced anomalies were
+presented for assessment of importance to the Kotlin compiler developers. According to the results of the assessment, 38 syntax tree
+anomalies and 31 compiler-induced anomalies were considereduseful (they got rank values 4 and 5). Some of these anomalies were
+added into the compiler testing infrastructure as performance and
+correctness tests for the compiler front-end and back-end; several
+anomalies were postponed for further discussion on possible language design issues. Based on these results and further discussions
+with the Kotlin compiler developers, we believe that the detected anomalies are useful and valuable for the language development,and our proposed approach proved itself successful in detection ofvarious code anomalies. 
